@@ -1,0 +1,23 @@
+table {
+  text-align: center;
+  border-spacing: 0;
+  width: 600px;
+}
+
+td,
+th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+th {
+  font-size: 30px;
+}
+
+#tableData {
+  margin-left: 25%;
+}

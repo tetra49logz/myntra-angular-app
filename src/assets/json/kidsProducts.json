@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "brand": "Mini CLub",
+      "type": "boys solid t-shirt with pyjamas",
+      "price": "Rs. 314",
+      "image": "/assets/img/kidsItems/kids1.webp"
+    },
+    {
+      "id": "2",
+      "brand": "Instafab",
+      "type": "color blocked sweatshirt",
+      "price": "Rs. 699",
+      "image": "/assets/img/kidsItems/kids2.webp"
+    },
+    {
+      "id": "3",
+      "brand": "Lilpicks",
+      "type": "boys printed t-shirt with shorts",
+      "price": "Rs. 799",
+      "image": "/assets/img/kidsItems/kids3.webp"
+    },
+    {
+      "id": "4",
+      "brand": "lazy shark",
+      "type": "boys printed night suit",
+      "price": "Rs. 559",
+      "image": "/assets/img/kidsItems/kids4.webp"
+    },
+    {
+      "id": "5",
+      "brand": "yk justice league",
+      "type": "printed round neck t-shirt",
+      "price": "Rs. 359",
+      "image": "/assets/img/kidsItems/kids5.webp"
+    },
+    {
+      "id": "6",
+      "brand": "Allen Solley junior",
+      "type": "boys regular fit casual shirt",
+      "price": "Rs. 1299",
+      "image": "/assets/img/kidsItems/kids6.webp"
+    },
+    {
+      "id": "7",
+      "brand": "h&m",
+      "type": "boys 4-piece cotton shirt",
+      "price": "Rs. 2699",
+      "image": "/assets/img/kidsItems/kids7.webp"
+    },
+    {
+      "id": "8",
+      "brand": "urban scottish",
+      "type": "boys regular fit casual shirt",
+      "price": "Rs. 539",
+      "image": "/assets/img/kidsItems/kids8.webp"
+    },
+    {
+      "id": "9",
+      "brand": "urban scottish",
+      "type": "boys regular shirt",
+      "price": "Rs. 639",
+      "image": "/assets/img/kidsItems/kids1.webp"
+    }
+  ]
+}

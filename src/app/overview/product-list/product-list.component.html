@@ -1,0 +1,72 @@
+<!-- <div lcass="offset-md-4">
+  <input type="text" name="search" id="search" [(ngModel)]="search">
+</div> -->
+
+<section id="menSection" name="menSection">
+  <h2 class="text-center roboto forHim">- For Him -</h2>
+  <div class="products-center">
+    <!-- Single Product -->
+    <!-- <article class="men-product">
+      <a onclick="clickTrigger(this.id)">
+        <div class="product-container">
+          <div class="img-container">
+            <img src="../../../assets/img/menItems/men1.webp" class="product-img">
+          </div>
+          <h3>Levis</h3>
+          <p class="arvo">Shirts</p>
+          <h4 class="roboto">Rs.120</h4>
+        </div>
+      </a>
+    </article> -->
+    <!-- Json Parsed Items -->
+    <article class="men-product" *ngFor="let product of menItems | filter:search">
+      <a (click)="clickTrigger(this.product)">
+        <div class="product-container">
+          <div class="img-container">
+            <img src={{product.image}} alt="" class="product-img">
+          </div>
+          <h3>{{product.brand}}</h3>
+          <p class="arvo">{{product.type}}</p>
+          <h4 class="roboto">{{product.price}}</h4>
+        </div>
+      </a>
+    </article>
+  </div>
+</section>
+
+<section id="womenSection" name="womenSection">
+  <h2 class="text-center roboto forHim">- For Her -</h2>
+  <div class="products-center">
+    <article class="men-product" *ngFor="let product of womenItems | filter:search">
+      <a (click)="clickTrigger(this.product)">
+        <div class="product-container">
+          <div class="img-container">
+            <img src={{product.image}} alt="" class="product-img">
+          </div>
+          <h3>{{product.brand}}</h3>
+          <p class="arvo">{{product.type}}</p>
+          <h4 class="roboto">{{product.price}}</h4>
+        </div>
+      </a>
+    </article>
+  </div>
+</section>
+
+<section id="kidsSection" name="kidsSection">
+  <h2 class="text-center roboto forHim">- For Kids -</h2>
+  <div class="products-center">
+    <!-- Json Parsed Items -->
+    <article class="men-product" *ngFor="let product of kidsItems | filter:search">
+      <a (click)="clickTrigger(this.product)">
+        <div class="product-container">
+          <div class="img-container">
+            <img src={{product.image}} alt="" class="product-img">
+          </div>
+          <h3>{{product.brand}}</h3>
+          <p class="arvo">{{product.type}}</p>
+          <h4 class="roboto">{{product.price}}</h4>
+        </div>
+      </a>
+    </article>
+  </div>
+</section>

@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "brand": "Harvard",
+      "type": "slim fit casual shirt",
+      "price": "Rs. 1399",
+      "image": "/assets/img/menItems/men1.webp"
+    },
+    {
+      "id": "2",
+      "brand": "Ecko Unltd",
+      "type": "cotton checked shirt",
+      "price": "Rs. 799",
+      "image": "/assets/img/menItems/men2.webp"
+    },
+    {
+      "id": "3",
+      "brand": "Highlander",
+      "type": "men slim fit casual shirt",
+      "price": "Rs. 1799",
+      "image": "/assets/img/menItems/men3.webp"
+    },
+    {
+      "id": "4",
+      "brand": "Indian Terrain",
+      "type": "slim fit casual shirt",
+      "price": "Rs. 1499",
+      "image": "/assets/img/menItems/men4.webp"
+    },
+    {
+      "id": "5",
+      "brand": "A & F",
+      "type": "slim fit casual shirt",
+      "price": "Rs. 899",
+      "image": "/assets/img/menItems/men5.webp"
+    },
+    {
+      "id": "6",
+      "brand": "Allen Solley",
+      "type": "slim fit casual shirt",
+      "price": "Rs. 1199",
+      "image": "/assets/img/menItems/men6.webp"
+    },
+    {
+      "id": "7",
+      "brand": "Levi's",
+      "type": "slim fit casual shirt",
+      "price": "Rs. 999",
+      "image": "/assets/img/menItems/men7.webp"
+    },
+    {
+      "id": "8",
+      "brand": "UCB",
+      "type": "casual shirt",
+      "price": "Rs. 1269",
+      "image": "/assets/img/menItems/men8.webp"
+    }
+  ]
+}

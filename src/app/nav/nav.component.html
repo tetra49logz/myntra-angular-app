@@ -1,0 +1,76 @@
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-md nav-shadow l-navbar">
+  <div class="container-fluid l-container">
+    <a href="index.html" class="navbar-brand">
+      <img src="../../assets/img/logo/apple-icon-72x72.png" alt="" width="30px">
+    </a>
+    <div class="collapse navbar-collapse d-flex">
+      <ul class="navbar-nav mr-auto p-2">
+        <li class="nav-item dropdown to-hover">
+          <a class="nav-link l-nav-link" href="#menSection">
+            Men
+          </a>
+          <div class="dropdown-menu men profile-shadow to-show">
+            <a class="dropdown-item" href="#">Shoes</a>
+            <a class="dropdown-item" href="#">Watches</a>
+            <a class="dropdown-item" href="#">Shirts</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown to-hover">
+          <a class="nav-link l-nav-link" href="#womenSection">
+            Women
+          </a>
+          <div class="dropdown-menu women profile-shadow to-show">
+            <a class="dropdown-item" href="#">Jewellery</a>
+            <a class="dropdown-item" href="#">Kurtas</a>
+            <a class="dropdown-item" href="#">Sarees</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown to-hover">
+          <a class="nav-link l-nav-link" href="#kidsSection">
+            Kids
+          </a>
+          <div class="dropdown-menu kids profile-shadow to-show">
+            <a class="dropdown-item" href="#">Boys</a>
+            <a class="dropdown-item" href="#">Girls</a>
+            <a class="dropdown-item" href="#">Accessories</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link l-nav-link">Home & Living</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link l-nav-link">Discover</a>
+        </li>
+      </ul>
+      <div class="search-query">
+        <form class="form-inline justify-content-end l-inline" #myForm="ngForm">
+          <input class="form-control ml-sm-2 l-searchbtn" name="search" type="search" [(ngModel)]="search"
+            placeholder="Search for products, brands and more">
+        </form>
+      </div>
+      <ul class="navbar-nav ml-4 p-2">
+        <li class="nav-item dropdown to-hover">
+          <a class="nav-link l-nav-link2" href="#">Profile
+          </a>
+          <div class="dropdown-menu profile profile-shadow to-show">
+            <h6>Welcome</h6>
+            <p>To access account and manager orders</p>
+            <button type="button" class="btn btn-outline-secondary btn-sm l-profile-btn"><a
+                class="dropdown-item l-drp-itm" [routerLink]="['/login']">Login</a></button>
+            <button type="button" class="btn btn-outline-secondary btn-sm l-profile-btn"><a
+                class="dropdown-item l-drp-itm" [routerLink]="['/signup']">Signup</a></button>
+            <p class="line"></p>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link l-nav-link2">Wishlist</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link l-nav-link2">Bag</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- <router-outlet></router-outlet> -->

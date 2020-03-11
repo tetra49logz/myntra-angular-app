@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "brand": "Nayo",
+      "type": "women solid maxi dress",
+      "price": "Rs. 859",
+      "image": "/assets/img/womenItems/women1.webp"
+    },
+    {
+      "id": "2",
+      "brand": "varanga",
+      "type": "color blocked maxi dress",
+      "price": "Rs.629",
+      "image": "/assets/img/womenItems/women2.webp"
+    },
+    {
+      "id": "3",
+      "brand": "gosriki",
+      "type": "solid khadi saree",
+      "price": "Rs. 549",
+      "image": "/assets/img/womenItems/women3.webp"
+    },
+    {
+      "id": "4",
+      "brand": "ishin",
+      "type": "printed bhagalpuri saree",
+      "price": "Rs. 540",
+      "image": "/assets/img/womenItems/women4.webp"
+    },
+    {
+      "id": "5",
+      "brand": "jaipur kurti",
+      "type": "women printed kurta set",
+      "price": "Rs. 899",
+      "image": "/assets/img/womenItems/women5.webp"
+    },
+    {
+      "id": "6",
+      "brand": "fabindia",
+      "type": "printed straigh kurta",
+      "price": "Rs. 675",
+      "image": "/assets/img/womenItems/women6.webp"
+    },
+    {
+      "id": "7",
+      "brand": "juniper",
+      "type": "women printed maxi skirts",
+      "price": "Rs. 2564",
+      "image": "/assets/img/womenItems/women7.webp"
+    },
+    {
+      "id": "8",
+      "brand": "varanga",
+      "type": "women khadi print maxi skirt",
+      "price": "Rs. 987",
+      "image": "/assets/img/womenItems/women8.webp"
+    }
+  ]
+}
